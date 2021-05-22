@@ -1,0 +1,445 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.clear_fix::after{
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+/*header_section*/
+.head{
+    width: 33%;
+    float: left;
+}
+.header_section{
+    z-index: 9;
+    position: fixed;
+    top: 0;
+}
+.header_content {
+    background: #010101;
+}
+
+.header_logo.head.clear_fix i {
+    display: inline-block;
+    width: 23px;
+    color: #251ccd;
+    font-size: 27px;
+    /* margin-top: 10px; */
+    line-height: 62px;
+}
+
+.header_logo.head.clear_fix input {
+    display: inline-block;
+    margin-left: 2px;
+    padding: 6px 69px 6px 10px;
+    border-radius: 24px;
+}
+
+.header_content {
+    background: #434242;
+}
+
+.header_logo.head.clear_fix i {
+    display: inline-block;
+    width: 23px;
+    color: #251ccd;
+    font-size: 27px;
+    /* margin-top: 10px; */
+    line-height: 62px;
+    float: left;
+}
+
+.header_logo.head.clear_fix input {
+    display: inline-block;
+    margin-left: 13px;
+    padding: 6px 69px 6px 10px;
+    border-radius: 24px;
+    background-color: #535353; 
+    border: none;
+     outline: none;
+     margin-top: 18px;
+      color: white;
+}
+
+.header_icon.head {
+    margin-top: 20px;
+    font-size: 26px;
+}
+
+.header_icon.head i {
+    padding: 5px 24px;
+    transition: background 0.2s ease;
+    color: #9e9e9e;
+    border-radius: 10px;
+}
+
+.header_icon.head i:hover {
+    background: #727272;
+}
+
+.img_side{
+    width: 15%;
+}
+img#header_face {
+    max-width: 35%;
+    float: left;
+    border-radius: 5px;
+    margin-top: 12px;
+}
+
+
+
+.img_side.clear_fix span {
+    color: #2319e6;
+    font-family: sans-serif;
+    margin-top: 16px;
+    display: inline-block;
+    margin-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.img_side.clear_fix {
+    background: #5c5464;
+    padding: 0px 14px 5px 11px;
+    border-radius: 32px;
+    margin-top: 17px;
+}
+
+.img_side.clear_fix {
+    float: left;
+}
+
+.header_links {
+    margin-left: 24px;
+    display: inline-block;
+    font-size: 21px;
+    margin-top: 19px;
+    padding-left: 11px;
+}
+
+.header_links i {
+    padding: 8px 14px;
+    background: black;
+    color: white;
+    border-radius: 50px;
+}
+
+.af {
+    position: relative;
+   
+}
+
+.af::after {
+    position: absolute;
+    width: 38px;
+    height: 14px;
+    content: "HOME";
+    background: #b4b4b4;
+    top: 100%;
+    left: 0;
+    padding: 4px 14px;
+    margin-top: 7px;
+    border-radius: 14px;
+    font-size: 9px;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 13px;
+     visibility: hidden; 
+    opacity: 0; 
+    color: white;
+    transition: all 0.2s ease;
+}
+
+.af:hover::after{
+    visibility: visible;
+    opacity: 1;
+}
+
+.bf {
+    position: relative;
+   
+}
+
+.bf::after {
+    position: absolute;
+    width: 38px;
+    height: 14px;
+    content: "Watch";
+    background: #b4b4b4;
+    top: 100%;
+    left: 0;
+    padding: 4px 14px;
+    margin-top: 7px;
+    border-radius: 14px;
+    font-size: 9px;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 13px;
+     visibility: hidden; 
+    opacity: 0; 
+    color: white;
+    transition: all 0.2s ease;
+}
+
+.bf:hover::after{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+
+.cf {
+    position: relative;
+   
+}
+
+.cf::after {
+    position: absolute;
+    width: 38px;
+    height: 14px;
+    content: "Groups";
+    background: #b4b4b4;
+    top: 100%;
+    left: 0;
+    padding: 4px 14px;
+    margin-top: 7px;
+    border-radius: 14px;
+    font-size: 9px;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 13px;
+     visibility: hidden; 
+    opacity: 0; 
+    color: white;
+    transition: all 0.2s ease;
+}
+
+.cf:hover::after{
+    visibility: visible;
+    opacity: 1;
+}
+.df {
+    position: relative;
+   
+}
+
+.df::after {
+    position: absolute;
+    width: 38px;
+    height: 14px;
+    content: "Gamming";
+    background: #b4b4b4;
+    top: 100%;
+    left: 0;
+    padding: 4px 14px;
+    margin-top: 7px;
+    border-radius: 14px;
+    font-size: 9px;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 13px;
+     visibility: hidden; 
+    opacity: 0; 
+    color: white;
+    transition: all 0.2s ease;
+}
+
+.df:hover::after{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/*cover section*/
+
+.cover_section{
+    background: #1E1E1F;
+    padding-bottom: 30px;
+   
+}
+.cover_content{
+    border-bottom: 1px solid rgb(92, 92, 92);
+    padding-bottom: 20px;
+}
+
+.cover_title {
+    position: relative;
+    text-align: right;
+    margin-top: -54px;
+    margin-left: 13px;
+    width: 162px;
+    background: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.cover_title i {
+    color: gray;
+}
+
+.cover_title a {
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 13px;
+}
+
+
+/*porfile pic*/
+
+.profile_pic {
+    position: relative;
+    width: 200px;
+    margin: auto;
+    margin-top: -108px;
+}
+
+.profile_pic img {
+    display: inline-block;
+    max-width: 100%;
+    border-radius: 116px;
+    border: 3px solid gray;
+}
+
+.profile_pic i {
+    position: absolute;
+    margin-left: 144px;
+    font-size: 20px;
+    margin-top: -52px;
+    color: white;
+    background: #222;
+    padding: 5px 13px;
+    border-radius: 41px;
+    width: 21px;
+    height: 21px;
+}
+
+
+.title_porfile {
+    text-align: center;
+}
+
+.title_porfile h2 {
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    color: #fff;
+}
+
+.title_porfile span {
+    font-family: monospace;
+    font-weight: bold;
+    color: #ffff;
+}
+
+.title_porfile a {
+    display: inline-block;
+    margin-top: 10px;
+    font-family: monospace;
+    color: #010096;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.links_fb_content {
+    margin-top: 20px;
+}
+
+.links_fb_content a {
+    color: darkgrey;
+    font-family: cursive;
+    margin-left: 30px;
+    padding: 5px 15px;
+    /* background: rebeccapurple; */
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.links_fb_content a:hover {
+    background: #615f5f;
+    border-radius: 10px;
+}
+
+#story {
+    color: white;
+    background: rgb(18, 131, 184);
+    padding: 10px;
+    border-radius: 5px;
+   
+    margin-left: 12px;
+}
+
+a#edit_pro {
+    background: rgb(70, 69, 69) ;
+    border-radius: 5px;
+    transition: 0.2s ease-in-out;
+    color: white;
+}
+a#edit_pro:hover{
+    background:#555;
+}
+a#dots {
+    background: #393939;
+    border-radius: 5px;
+    transition: background 0.2s ease;
+    color: #fff;
+}
+
+a#dots:hover {
+    background: #706e70;
+}
+a#dots {
+    background: #393939;
+    border-radius: 5px;
+    transition: background 0.2s ease;
+    color: #fff;
+}
+
+a#dots:hover {
+    background: #706e70;
+}
+
+a#edit_pro:hover {
+    background: #555;
+}
+
+.post_after{
+    position: relative;
+}
+
+a.post_after::after {
+    content: "";
+    width: 100%;
+    height: 4px;
+    background: #0016ff;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+a.post_after {
+    color: #0016ff;
+}
+
+a.post_after:hover {
+    background: #000;
+}
+
+a.post_after:hover {
+    background: #1E1E1F;
+}
+
+.cover_photo img {
+    border-radius: 26px;
+}
